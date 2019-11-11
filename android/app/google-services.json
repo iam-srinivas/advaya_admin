@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "808167681630",
+    "firebase_url": "https://advaya-f8a8b.firebaseio.com",
+    "project_id": "advaya-f8a8b",
+    "storage_bucket": "advaya-f8a8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808167681630:android:4975fc8a54eba6e4f38ecf",
+        "android_client_info": {
+          "package_name": "com.example.advaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808167681630-hfj495vtfraohqllohotch36sbqg8lt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP-Al3z6xqeKgjPdS_DeNRPQnEqTg7Pdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808167681630-hfj495vtfraohqllohotch36sbqg8lt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808167681630:android:60341a9e4c624631f38ecf",
+        "android_client_info": {
+          "package_name": "com.example.advaya_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808167681630-hfj495vtfraohqllohotch36sbqg8lt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP-Al3z6xqeKgjPdS_DeNRPQnEqTg7Pdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808167681630-hfj495vtfraohqllohotch36sbqg8lt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
