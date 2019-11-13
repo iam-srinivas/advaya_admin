@@ -51,8 +51,15 @@ class _HomePageState extends State<HomePage> {
   Widget _buildListItem(BuildContext context, DocumentSnapshot document) {
     return ListTile(
       title: Text(document['Name'] + ' (' + document['Usn'] + ')'),
-      subtitle:
-          Text('Year:' + document['Year'] + '    ' + document['Department']),
+      subtitle: Column(
+        children: <Widget>[
+          Text('Year:' + document['Year']),
+          Text('Department:' + document['Department']),
+          Text('Round 1:' + document['Scores']['Round 1'].toString()),
+          Text('Round 2:' + document['Scores']['Round 2'].toString()),
+          Text('Round 3:' + document['Scores']['Round 3'].toString()),
+        ],
+      ),
       trailing: MaterialButton(
         onPressed: () {
           addToNextRound(document);
@@ -126,7 +133,7 @@ class _HomePageState extends State<HomePage> {
                 text: 'Participants',
               ),
               Tab(
-                icon: Text(' Round 2'),
+                icon: Text('Round 2'),
                 text: 'Completed',
               ),
               Tab(
